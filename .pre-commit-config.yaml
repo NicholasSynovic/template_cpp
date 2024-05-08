@@ -25,6 +25,7 @@ repos:
       - id: astyle
         name: astyle
         language: system
+        files: '\.c$,\.cpp$,\.h$'
         types: [c, c++, header]
         entry: astyle --options=.astyle
   - repo: https://github.com/executablebooks/mdformat
