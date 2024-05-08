@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 3.25)
 project(CHANGE_ME VERSION 0.1)
 
-set(CMAKE_CXX_STANDARD 26)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
-set(CMAKE_CXX_COMPILER "icpx")
 
 include(FetchContent)
 # Example of FetchContent with CLI11
